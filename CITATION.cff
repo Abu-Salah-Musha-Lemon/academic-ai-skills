@@ -1,0 +1,22 @@
+cff-version: "1.2.0"
+message: "If you use this project in academic work, please cite it using this file."
+title: "Professional Universal Academic AI Skills"
+authors:
+  - family-names: Lemon
+    given-names: Abu Salah Musha
+version: "0.0.1"
+date-released: 2026-11-26
+license: MIT
+type: software
+repository-code: "https://github.com/Abu-Salah-Musha-Lemon/academic-ai-skills"
+abstract: >-
+  A platform-neutral collection of reusable Agent Skills for academic research,
+  scholarly writing, and graduate applications, with evidence, authenticity,
+  and integrity-oriented workflows.
+keywords:
+  - Agent Skills
+  - academic research
+  - literature review
+  - scholarly writing
+  - graduate applications
+  - research assistance

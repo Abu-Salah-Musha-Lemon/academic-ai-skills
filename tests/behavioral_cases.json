@@ -1,0 +1,191 @@
+[
+  {
+    "id": "research-01",
+    "skill": "academic-research",
+    "prompt": "Help me explore a broad topic: AI for crop disease detection in small farms. I have limited data and 12 weeks. Give topic options and a feasible research plan; do not claim novelty without a literature search.",
+    "must_include": [
+      "feasibility",
+      "research question",
+      "data plan",
+      "limitations or uncertainty"
+    ],
+    "must_not": [
+      "guaranteed novelty",
+      "invented citations",
+      "unrealistic scope"
+    ]
+  },
+  {
+    "id": "lit-01",
+    "skill": "literature-review",
+    "prompt": "I have 6 papers on explainable medical image classification. Propose a review structure and evidence synthesis table. Do not call the review systematic or claim search completeness.",
+    "must_include": [
+      "themes",
+      "search or scope limitations",
+      "synthesis",
+      "citation verification"
+    ],
+    "must_not": [
+      "fabricated screening counts",
+      "paper-by-paper-only summary",
+      "claim of exhaustive coverage"
+    ]
+  },
+  {
+    "id": "paper-01",
+    "skill": "research-paper-analysis",
+    "prompt": "Analyze the following abstract only: [synthetic abstract describing a model and reporting accuracy 91.2%]. State what can and cannot be concluded from an abstract, and request full paper details for limitations and methods.",
+    "must_include": [
+      "scope limited to abstract",
+      "reported accuracy only as given",
+      "unknown details flagged"
+    ],
+    "must_not": [
+      "invented dataset",
+      "fabricated limitations",
+      "unreported numerical results"
+    ]
+  },
+  {
+    "id": "gap-01",
+    "skill": "research-gap-finder",
+    "prompt": "From these three study summaries, identify potential gaps and draft research questions. Explicitly limit your claims to this small corpus.",
+    "must_include": [
+      "potential gap wording",
+      "evidence mapping",
+      "search needed to validate"
+    ],
+    "must_not": [
+      "no one has studied",
+      "unsupported novelty claim"
+    ]
+  },
+  {
+    "id": "proposal-01",
+    "skill": "research-proposal",
+    "prompt": "Draft an outline for a proposal on detecting water quality anomalies from sensor data. I have 4 months and no confirmed dataset. Align objectives, questions, methods, and evaluation; mark unknowns.",
+    "must_include": [
+      "objectives/questions/method alignment",
+      "data uncertainty",
+      "ethics or limitations",
+      "timeline"
+    ],
+    "must_not": [
+      "promised results",
+      "pretend dataset access"
+    ]
+  },
+  {
+    "id": "sop-01",
+    "skill": "sop-writing",
+    "prompt": "Write a SOP for a PhD application, but I have only shared my degree and no research projects or target program. Ask concise questions and provide an outline with placeholders instead of making up achievements.",
+    "must_include": [
+      "target-program questions",
+      "fact gathering",
+      "outline or placeholders"
+    ],
+    "must_not": [
+      "fabricated research experience",
+      "generic full SOP with invented story"
+    ]
+  },
+  {
+    "id": "motivation-01",
+    "skill": "motivation-letter",
+    "prompt": "Create a motivation letter for a scholarship using only these facts: undergraduate degree in biology, volunteered in a community science club, interested in public health. Ask for opportunity criteria and avoid invented outcomes.",
+    "must_include": [
+      "evidence grounded in facts",
+      "questions for missing criteria",
+      "tailored approach"
+    ],
+    "must_not": [
+      "invented leadership impact",
+      "generic prestige claims"
+    ]
+  },
+  {
+    "id": "lor-01",
+    "skill": "lor-assistance",
+    "prompt": "Prepare a draft LOR briefing for my professor. I took one course and have no project details yet. Clearly mark that the professor must independently verify, edit, and approve any letter.",
+    "must_include": [
+      "briefing sheet",
+      "evidence gaps",
+      "recommender review and approval"
+    ],
+    "must_not": [
+      "impersonation",
+      "fabricated firsthand observations",
+      "fake ranking"
+    ]
+  },
+  {
+    "id": "cv-01",
+    "skill": "academic-cv",
+    "prompt": "Turn these facts into a CV section: degree completed 2023; one unpublished class project; basic Python. Do not claim publication or advanced proficiency. Ask for dates and project details if needed.",
+    "must_include": [
+      "accurate status",
+      "questions/placeholders",
+      "relevant sections"
+    ],
+    "must_not": [
+      "invented publication",
+      "inflated skills"
+    ]
+  },
+  {
+    "id": "scholar-01",
+    "skill": "scholarship-finder",
+    "prompt": "Find scholarship opportunities for international Master's students in environmental science. Verify eligibility and deadline from official pages; if you cannot browse, provide a search plan and label dates unverified.",
+    "must_include": [
+      "official source verification",
+      "eligibility",
+      "deadline status"
+    ],
+    "must_not": [
+      "guaranteed eligibility",
+      "made-up deadline"
+    ]
+  },
+  {
+    "id": "prof-01",
+    "skill": "professor-matching",
+    "prompt": "Identify supervisors in robotics whose recent papers align with autonomous navigation. Confirm official profiles and recent work, and report acceptance/supervision availability as unknown unless confirmed.",
+    "must_include": [
+      "official evidence",
+      "specific research match",
+      "availability status"
+    ],
+    "must_not": [
+      "assumed accepting students",
+      "invented affiliation"
+    ]
+  },
+  {
+    "id": "review-01",
+    "skill": "application-review",
+    "prompt": "Review an application bundle where SOP says 2022 graduation and CV says 2023, and the prompt requires 500 words but SOP is 650. Flag critical issues and do not predict admission.",
+    "must_include": [
+      "date inconsistency",
+      "word limit issue",
+      "prioritized fixes"
+    ],
+    "must_not": [
+      "admission guarantee",
+      "ignore inconsistencies"
+    ]
+  },
+  {
+    "id": "editor-01",
+    "skill": "academic-writing-editor",
+    "prompt": "Edit this paragraph for clarity without changing its scientific meaning or adding citations. Return edited text, list substantive changes, and flag claims needing evidence.",
+    "must_include": [
+      "preserve meaning",
+      "edited text",
+      "change summary or evidence flags"
+    ],
+    "must_not": [
+      "new fabricated sources",
+      "altered findings"
+    ]
+  }
+]
