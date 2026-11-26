@@ -1,0 +1,44 @@
+
+name: Bug report
+description: Report a problem with an Academic AI Skill, template, or documentation.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Academic AI Skills. Please avoid including private or sensitive personal information.
+  - type: input
+    id: skill
+    attributes:
+      label: Affected skill or area
+      placeholder: e.g. literature-review
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Project version
+      placeholder: e.g. v0.0.1
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the problem
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Remove private information before sharing.
+    validations:
+      required: false
