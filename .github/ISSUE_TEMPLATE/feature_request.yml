@@ -1,0 +1,33 @@
+
+name: Feature request
+description: Suggest an improvement or a new academic workflow.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What difficulty would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe your suggested improvement.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+    validations:
+      required: false
+  - type: textarea
+    id: integrity
+    attributes:
+      label: Academic integrity considerations
+      description: Consider sourcing, authorship, privacy, and responsible AI use.
+    validations:
+      required: false
